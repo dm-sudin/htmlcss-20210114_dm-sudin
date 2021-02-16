@@ -1,0 +1,27 @@
+.input {
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 26px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.input__empty {
+    border: 1px solid #DDE2E5;
+}
+
+
+
+.input__empty::placeholder {
+    color: #DDE2E5;
+}
+
+.input__focus {
+    border: 1px solid #4263EB;
+    color: #495057;    
+}
+
+.input__success {
+    border: 1px solid #4263EB;
+    /* CONTINUE color */
+}
