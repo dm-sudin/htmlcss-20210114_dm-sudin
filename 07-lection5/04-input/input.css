@@ -1,4 +1,5 @@
 .input {
+    height: 56px;
     box-sizing: border-box;
     font-size: 20px;
     line-height: 26px;
@@ -18,10 +19,25 @@
 
 .input__focus {
     border: 1px solid #4263EB;
-    color: #495057;    
+    color: #495057;
 }
 
 .input__success {
     border: 1px solid #4263EB;
-    /* CONTINUE color */
+}
+
+
+label {
+    display: block;
+    position: relative;
+    width: fit-content;
+}
+
+.input__icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
 }
