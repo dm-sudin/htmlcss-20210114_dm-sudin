@@ -1,18 +1,3 @@
-html {
-    height: 100%;
-}
-
-@import "../../assets/css/variables.scss";
-
-
-body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
 .dropdown {
     position: relative;
 
@@ -38,8 +23,8 @@ body {
                 content: '';
                 position: absolute;
                 top:100%;
-                left: 50%;    
-                border: 14px solid transparent;    
+                left: 50%;
+                border: 14px solid transparent;
                 border-top: 16px solid $accent;
                 transform: translate(-50%, -9px);
             }
@@ -56,7 +41,6 @@ body {
         justify-content: center;
         align-items: center;
     }
-
 }
 
 

@@ -1,6 +1,5 @@
 @import "../../assets/css/variables.scss";
 
-
 .calendar {
     margin: auto;
     padding: 28px 36px;
@@ -9,7 +8,7 @@
     box-sizing: border-box;
 
     &-component {
-        max-width: 350px;    
+        max-width: 350px;
     }
 
     &__wrapper {

@@ -1,11 +1,10 @@
 @import "../../assets/css/variables.scss";
 
-
 .avatar {
     width: 200px;
     height:200px;
     position: relative;
-    
+
     &__body {
         position: absolute;
         top: 0;

@@ -1,6 +1,6 @@
 .header {
     background: var(--bg-third);
-    padding-top: 25px; 
+    padding-top: 25px;
     height: 200px;
     padding-left: 160px;
     display: flex;
@@ -14,7 +14,6 @@
         padding-left: 16px;
     }
 }
-
 
 .header__icon {
     color: var(--black);
