@@ -11,11 +11,13 @@
 
     &__empty {
         border: $border-third;
-
-        &::placeholder {
-            color: $text-secondary-color;
-        }
     }
+
+
+    // invokes postcss errors
+    // &__empty::placeholder {
+    //     color: $text-secondary-color;
+    // }
 
     &__icon {
         right: 20px;
@@ -26,23 +28,23 @@
         position: absolute;
 
         &_success {
-            color: $accent-second; 
+            color: $accent-second;
         }
-        
+
         &_error {
             color: $icon-error;
         }
     }
-    
+
     &__focus {
         border: $border-accent;
         color: $text-main-color;
     }
-    
+
     &__success {
         border: $border-third;
     }
-    
+
     &__error {
         border: $border-error;
     }

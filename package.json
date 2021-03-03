@@ -4,7 +4,7 @@
   "description": "Course Materials",
   "scripts": {
     "test": "cross-env NODE_ENV=test mocha --no-warnings --reporter=reporter.js --ignore=node_modules/** **/*.test.js",
-    "build": "postcss component/index.css -o build/index.css",
+    "build": "npx postcss assets/css/main.scss -o build/index.css --verbose",
     "fix": "stylelint --fix **/*.scss"
   },
   "keywords": [],
@@ -19,7 +19,7 @@
     "postcss": "^8.2.6",
     "postcss-cli": "^8.3.1",
     "postcss-import": "^14.0.0",
-    "postcss-nested": "^5.0.3",
+    "postcss-nested": "^5.0.4",
     "postcss-scss": "^3.0.4",
     "precss": "^4.0.0",
     "stylelint": "^13.11.0"
