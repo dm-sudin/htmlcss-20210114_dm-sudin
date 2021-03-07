@@ -5,6 +5,7 @@
 }
 
 .page__box {
+    box-sizing: border-box;
     max-width: 1110px;
     margin:auto;
 }

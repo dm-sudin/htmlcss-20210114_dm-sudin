@@ -7,6 +7,7 @@
 .preview__container {
     display: grid;
     grid-template-columns: repeat(3, calc(33% - 15px));
+    grid-template-rows: repeat(auto-fill, minmax(350px, auto));
     grid-gap:30px;
 }
 
@@ -19,17 +20,18 @@
 }
 
 .preview__card {
-    flex-basis: 350px;
+    /* flex-basis: 350px;
     flex-grow: 0;
-    flex-shrink: 1;
+    flex-shrink: 1; */
     background: var(--bg-main);
     /* Card Shadow */
-    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.20);
     border-radius: 12px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     box-sizing: border-box;
+    padding: 32px;
 }
 
 .preview__card-title {
